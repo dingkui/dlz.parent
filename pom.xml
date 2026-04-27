@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>top.dlzio</groupId>
     <artifactId>dlz.parent</artifactId>
-    <version>6.6.3</version>
+    <version>6.6.3.1</version>
     <packaging>pom</packaging>
     <name>dlz.parent</name>
     <url>https://github.com/dingkui/dlz.parent.git</url>
@@ -202,6 +202,9 @@
                             <additionalJOptions>
                                 <additionalJOption>-Xdoclint:none</additionalJOption>
                             </additionalJOptions>
+                            <encoding>UTF-8</encoding>
+                            <charset>UTF-8</charset>
+                            <docencoding>UTF-8</docencoding>
                         </configuration>
                         <executions>
                             <execution>
